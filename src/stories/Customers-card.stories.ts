@@ -29,11 +29,10 @@ export const CustomerCards = Template.bind({});
 CustomerCards.args = { customers };
 
 export const CustomerCards10 = Template.bind({});
-CustomerCards10.args = { customers: customers.slice(0, 10) };
+CustomerCards10.args = { customers: customers.slice(0,10) };
 
-export const CustomerCards1 = Template.bind({});
-CustomerCards1.args = { customers: customers.slice(0, 1) };
+export const CustomerCards4 = Template.bind({});
+CustomerCards4.args = { customers: customers.slice(0,4) };
 
-export const CustomerCards0 = Template.bind({});
-CustomerCards0.args = { customers: null };
-
+export const CustomerCardsNone = Template.bind({});
+CustomerCardsNone.args = { customers: null };

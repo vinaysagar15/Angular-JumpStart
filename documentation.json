@@ -6251,6 +6251,38 @@
                 "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
             },
             {
+                "name": "CustomerCards",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/Customers-card.stories.ts",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "CustomerCards0",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/Customers-card.stories.ts",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "CustomerCards1",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/Customers-card.stories.ts",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "CustomerCards10",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/Customers-card.stories.ts",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
                 "name": "customers",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -6357,22 +6389,6 @@
                 "name": "sandboxConfig",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/customer/customer-details/customer-details.component.sandbox.ts",
-                "type": "object",
-                "defaultValue": "{\n  imports: [ SharedModule, CoreModule ],\n  providers: [\n      { provide: DataService, useClass: MockDataService },\n      { provide: ActivatedRoute, useFactory: () => {\n        const route = getActivatedRouteWithParent([{ id: '1' }]);\n        return route;\n      }}\n  ],\n  label: 'Customer Details Component'\n}"
-            },
-            {
-                "name": "sandboxConfig",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/app/customer/customer-orders/customer-orders.component.sandbox.ts",
-                "type": "object",
-                "defaultValue": "{\n  imports: [ SharedModule, CoreModule ],\n  providers: [\n      { provide: DataService, useClass: MockDataService },\n      { provide: ActivatedRoute, useFactory: () => {\n        const route = getActivatedRouteWithParent([{ id: '1' }]);\n        return route;\n      }}\n  ],\n  label: 'Customer Orders Component'\n}"
-            },
-            {
-                "name": "sandboxConfig",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/app/customers/customers-card/customers-card.component.sandbox.ts",
                 "type": "object",
                 "defaultValue": "{\n  imports: [ SharedModule, CoreModule, RouterTestingModule ],\n  label: 'Customers Card Component'\n}"
@@ -6384,6 +6400,22 @@
                 "file": "src/app/customers/customers-grid/customers-grid.component.sandbox.ts",
                 "type": "object",
                 "defaultValue": "{\n  imports: [ SharedModule, CoreModule, RouterTestingModule ],\n  label: 'Customers Grid Component'\n}"
+            },
+            {
+                "name": "sandboxConfig",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/customer/customer-details/customer-details.component.sandbox.ts",
+                "type": "object",
+                "defaultValue": "{\n  imports: [ SharedModule, CoreModule ],\n  providers: [\n      { provide: DataService, useClass: MockDataService },\n      { provide: ActivatedRoute, useFactory: () => {\n        const route = getActivatedRouteWithParent([{ id: '1' }]);\n        return route;\n      }}\n  ],\n  label: 'Customer Details Component'\n}"
+            },
+            {
+                "name": "sandboxConfig",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/customer/customer-orders/customer-orders.component.sandbox.ts",
+                "type": "object",
+                "defaultValue": "{\n  imports: [ SharedModule, CoreModule ],\n  providers: [\n      { provide: DataService, useClass: MockDataService },\n      { provide: ActivatedRoute, useFactory: () => {\n        const route = getActivatedRouteWithParent([{ id: '1' }]);\n        return route;\n      }}\n  ],\n  label: 'Customer Orders Component'\n}"
             },
             {
                 "name": "Secondary",
@@ -6405,6 +6437,14 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
+                "file": "src/stories/About.stories.ts",
+                "type": "Story<AboutComponent>",
+                "defaultValue": "(args: AboutComponent) => ({\n  component: AboutComponent,\n  props: args,\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
                 "file": "src/stories/Button.stories.ts",
                 "type": "Story<Button>",
                 "defaultValue": "(args: Button) => ({\n  component: Button,\n  props: args,\n})"
@@ -6413,17 +6453,17 @@
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Header.stories.ts",
-                "type": "Story<Header>",
-                "defaultValue": "(args: Header) => ({\n  component: Header,\n  props: args,\n})"
+                "file": "src/stories/Customers-card.stories.ts",
+                "type": "Story<CustomersCardComponent>",
+                "defaultValue": "(args: CustomersCardComponent) => ({\n  component: CustomersCardComponent,\n  props: args,\n})"
             },
             {
                 "name": "Template",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/About.stories.ts",
-                "type": "Story<AboutComponent>",
-                "defaultValue": "(args: AboutComponent) => ({\n  component: AboutComponent,\n  props: args,\n})"
+                "file": "src/stories/Header.stories.ts",
+                "type": "Story<Header>",
+                "defaultValue": "(args: Header) => ({\n  component: Header,\n  props: args,\n})"
             },
             {
                 "name": "Template",
@@ -6619,6 +6659,48 @@
                     "defaultValue": "(args: AboutComponent) => ({\n  component: AboutComponent,\n  props: args,\n})"
                 }
             ],
+            "src/stories/Customers-card.stories.ts": [
+                {
+                    "name": "CustomerCards",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Customers-card.stories.ts",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "CustomerCards0",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Customers-card.stories.ts",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "CustomerCards1",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Customers-card.stories.ts",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "CustomerCards10",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Customers-card.stories.ts",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Customers-card.stories.ts",
+                    "type": "Story<CustomersCardComponent>",
+                    "defaultValue": "(args: CustomersCardComponent) => ({\n  component: CustomersCardComponent,\n  props: args,\n})"
+                }
+            ],
             "deno/routes.ts": [
                 {
                     "name": "customers",
@@ -6773,26 +6855,6 @@
                     "defaultValue": "{\n  imports: [ SharedModule, CoreModule, RouterTestingModule ],\n  declarations: [ CustomersCardComponent, CustomersGridComponent ],\n  providers: [\n    { provide: DataService, useClass: MockDataService }\n],\n  label: 'Customers Component'\n}"
                 }
             ],
-            "src/app/customer/customer-details/customer-details.component.sandbox.ts": [
-                {
-                    "name": "sandboxConfig",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/customer/customer-details/customer-details.component.sandbox.ts",
-                    "type": "object",
-                    "defaultValue": "{\n  imports: [ SharedModule, CoreModule ],\n  providers: [\n      { provide: DataService, useClass: MockDataService },\n      { provide: ActivatedRoute, useFactory: () => {\n        const route = getActivatedRouteWithParent([{ id: '1' }]);\n        return route;\n      }}\n  ],\n  label: 'Customer Details Component'\n}"
-                }
-            ],
-            "src/app/customer/customer-orders/customer-orders.component.sandbox.ts": [
-                {
-                    "name": "sandboxConfig",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/customer/customer-orders/customer-orders.component.sandbox.ts",
-                    "type": "object",
-                    "defaultValue": "{\n  imports: [ SharedModule, CoreModule ],\n  providers: [\n      { provide: DataService, useClass: MockDataService },\n      { provide: ActivatedRoute, useFactory: () => {\n        const route = getActivatedRouteWithParent([{ id: '1' }]);\n        return route;\n      }}\n  ],\n  label: 'Customer Orders Component'\n}"
-                }
-            ],
             "src/app/customers/customers-card/customers-card.component.sandbox.ts": [
                 {
                     "name": "sandboxConfig",
@@ -6811,6 +6873,26 @@
                     "file": "src/app/customers/customers-grid/customers-grid.component.sandbox.ts",
                     "type": "object",
                     "defaultValue": "{\n  imports: [ SharedModule, CoreModule, RouterTestingModule ],\n  label: 'Customers Grid Component'\n}"
+                }
+            ],
+            "src/app/customer/customer-details/customer-details.component.sandbox.ts": [
+                {
+                    "name": "sandboxConfig",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/customer/customer-details/customer-details.component.sandbox.ts",
+                    "type": "object",
+                    "defaultValue": "{\n  imports: [ SharedModule, CoreModule ],\n  providers: [\n      { provide: DataService, useClass: MockDataService },\n      { provide: ActivatedRoute, useFactory: () => {\n        const route = getActivatedRouteWithParent([{ id: '1' }]);\n        return route;\n      }}\n  ],\n  label: 'Customer Details Component'\n}"
+                }
+            ],
+            "src/app/customer/customer-orders/customer-orders.component.sandbox.ts": [
+                {
+                    "name": "sandboxConfig",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/customer/customer-orders/customer-orders.component.sandbox.ts",
+                    "type": "object",
+                    "defaultValue": "{\n  imports: [ SharedModule, CoreModule ],\n  providers: [\n      { provide: DataService, useClass: MockDataService },\n      { provide: ActivatedRoute, useFactory: () => {\n        const route = getActivatedRouteWithParent([{ id: '1' }]);\n        return route;\n      }}\n  ],\n  label: 'Customer Orders Component'\n}"
                 }
             ]
         },
@@ -7129,7 +7211,7 @@
         ]
     },
     "coverage": {
-        "count": 1,
+        "count": 0,
         "status": "low",
         "files": [
             {
@@ -7861,6 +7943,56 @@
             },
             {
                 "filePath": "src/stories/Button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/Customers-card.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "CustomerCards",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/Customers-card.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "CustomerCards0",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/Customers-card.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "CustomerCards1",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/Customers-card.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "CustomerCards10",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/Customers-card.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
